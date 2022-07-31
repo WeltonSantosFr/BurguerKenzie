@@ -69,4 +69,9 @@ export const CartCardButton = styled.button`
   background-color: #f5f5f5;
   align-self: flex-start;
   margin-top: 1rem;
+
+  :hover {
+    color: #333333;
+    text-decoration: underline;
+  }
 `;

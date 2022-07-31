@@ -107,5 +107,11 @@ export const CartTotal = styled.div`
     font-size: 16px;
     font-weight: 600;
     color: #828282;
+    transition: ease 500ms;
+
+    :hover {
+      background-color: #828282;
+      color: #e0e0e0;
+    }
   }
 `;

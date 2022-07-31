@@ -10,6 +10,14 @@ export const CardDiv = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   gap: 1rem;
+  :hover {
+    border: #333333 1px solid;
+
+    img {
+      transform: scale(1.1);
+      background-color: transparent;
+    }
+  }
 
   @media (max-width: 800px) {
     min-width: 240px;
@@ -54,6 +62,23 @@ export const CardButton = styled.button`
   font-weight: 600;
   border-radius: 8px;
   margin: 0 0 0 1rem;
+  transition: ease 500ms;
+
+  :hover {
+    background-color: #93d7af;
+  }
+
+  :active {
+    background-color: #93d7af;
+  }
+
+  :visited {
+    background-color: #93d7af;
+  }
+
+  :focus {
+    background-color: #93d7af;
+  }
 `;
 
 export const CardImgDiv = styled.div`

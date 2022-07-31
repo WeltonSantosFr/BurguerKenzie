@@ -50,6 +50,14 @@ export const InputDiv = styled.div`
   border-radius: 8px;
   background-color: #fff;
 
+  :hover {
+    border: 1px solid #000;
+  }
+
+  :focus {
+    border: 1px solid #000;
+  }
+
   input {
     align-self: center;
     height: 40px;
@@ -71,5 +79,10 @@ export const InputDiv = styled.div`
     width: 100px;
     align-self: center;
     color: #fff;
+    transition: ease 500ms;
+
+    :hover {
+      background-color: #93d7af;
+    }
   }
 `;
